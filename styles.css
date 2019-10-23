@@ -22,3 +22,19 @@ p::selection {
     color: maroon;
     background-color: lightyellow;
 }
+
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+@media (min-width: 500px) {
+    body {
+        background-color: lightsalmon;
+    }
+}
+@media (max-width: 499px) {
+    body {
+        background-color: lightskyblue;
+    }
+}
