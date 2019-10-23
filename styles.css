@@ -1,0 +1,24 @@
+h1, h2 {
+    color: maroon;
+}
+ul {
+    background-color: lightgoldenrodyellow;
+}
+
+input[type=text] {
+    background-color: lightgreen;
+}
+input[type=text]:hover {
+    background-color: lightyellow;
+}
+input[type=password] {
+    background-color: lightsteelblue;
+}
+a::before {
+    content: "\21d2 Click here: ";
+    font-weight: bold;
+}
+p::selection {
+    color: maroon;
+    background-color: lightyellow;
+}
